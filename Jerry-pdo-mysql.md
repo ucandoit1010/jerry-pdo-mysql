@@ -3,7 +3,9 @@
 ## Connection 連線
 
 $host = '127.0.0.1';
+
 $dbname = '';
+
 $username = 'root';
 $password = '';
 $charset = 'utf8';
