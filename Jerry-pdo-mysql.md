@@ -1,4 +1,4 @@
-# Jerry Memo CRUD with PHP PDO MySQL
+# Jerry Memo with PHP PDO MySQL
  
 ## Connection 連線
 
