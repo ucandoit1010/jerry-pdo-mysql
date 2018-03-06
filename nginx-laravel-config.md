@@ -4,7 +4,7 @@ https://gist.github.com/tsolar/8d45ed05bcff8eb75404#gistcomment-2299798
 
 ## sub_directory
 
-  location ^~ /sub_directory {  
+  ```location ^~ /sub_directory {  
       alias /var/www/choppies/sub_directory/public;  
       try_files $uri $uri/ @sub_directory;  
       location ~ \.php {  
@@ -16,4 +16,4 @@ https://gist.github.com/tsolar/8d45ed05bcff8eb75404#gistcomment-2299798
 
   location @sub_directory {
       rewrite /sub_directory/(.*)$ /sub_directory/index.php?/$1 last;  
-  }
+  ```}
