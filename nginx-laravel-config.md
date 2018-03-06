@@ -2,7 +2,7 @@
 ref :
 https://gist.github.com/tsolar/8d45ed05bcff8eb75404#gistcomment-2299798
 
-## sub_directory
+## /etc/nginx/sites-available/default
 
   ```  
   location ^~ /sub_directory {  
